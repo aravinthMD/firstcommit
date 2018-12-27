@@ -1,0 +1,7 @@
+com\kgisl\app\model\Student.class
+com\kgisl\app\controller\SwaggerConfig.class
+com\kgisl\app\controller\ServletIntializer.class
+com\kgisl\app\controller\WebMvcConfig.class
+com\kgisl\app\controller\HibernateConfig.class
+com\kgisl\app\controller\StudentController.class
+com\kgisl\app\repository\Javarepositary.class

@@ -1,0 +1,47 @@
+package com.kgisl.app.controller;
+
+import static org.junit.Assert.assertEquals;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import com.kgisl.app.model.Student;
+
+import org.junit.After;
+import org.junit.Before;
+import org.junit.FixMethodOrder;
+import org.junit.Test;
+
+
+
+/**
+ * StudentControllerTest
+ * 
+ * @param <c>
+ */
+@FixMethodOrder
+public class StudentControllerTest<c> {
+    @Before
+    public void setUp() {
+        System.out.println("setUp started");
+    }
+
+    @Test
+    public void submit() {
+        // Student a1=null;
+        
+        Student a = new Student(6, "jaggy", "cse", 87540);
+        
+        List<Student> b=new ArrayList<Student>();
+        b.add(a);
+        // ArrayList<Student> list1=(ArrayList<Student>) b;
+        System.out.println("Test Method started");
+        //assert
+        assertEquals(b,StudentController.listStudents());
+    }
+
+    @After
+    public void tearDown() {
+        System.out.println("tearDown started");
+    }
+}
