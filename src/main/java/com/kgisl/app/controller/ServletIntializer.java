@@ -19,6 +19,8 @@ public class ServletIntializer extends AbstractAnnotationConfigDispatcherServlet
 
 
 	//test
+
+		//test
 	protected Class<?>[] getServletConfigClasses() {
 		return new Class[] { WebMvcConfig.class };
 	}
