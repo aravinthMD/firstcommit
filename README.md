@@ -172,4 +172,9 @@ https://maven.apache.org/guides/introduction/introduction-to-the-lifecycle.html
 https://en.wikipedia.org/wiki/Java_servlet
 https://www.splessons.com/lesson/http-servlets/
 https://www.codejavanet/coding/jsp-servlet-jdbc-mysql-create-read-update-delete-crud-example
+
+
+
+
+practise
 ```
