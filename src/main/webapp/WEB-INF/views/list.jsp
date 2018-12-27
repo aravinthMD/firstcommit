@@ -12,7 +12,7 @@
 
 <body>
                             DISPLAY DETAILS:
-                    DISPLAY CREDENTIALS AND MESSAGES
+                            ########
                             ${listStudent}
     <c:forEach var="lang" items="${listStudent}">
             <font color="#00CC00"><c:out value="${lang}"/>,</font>
